@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0px;
+    font-family: san-serif;
+}
+
+h1 {
+    color: hotpink;
+    font-style: italic;
+}
+#p1 {
+    text-align: center;
+}
+#first {
+    text-decoration: underline;
+    background-color: aliceblue;
+}
+#second {
+    font-weight: bolder;
+}
+#panda {
+
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+}
+#specific {
+    text-decoration: line-through;
+    font-size: large;
+}
+img {
+    margin-top: 20px;
+    border: 
+        solid 
+        5px;
+    border-radius: 10px 50px;
+}

@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: san-serif;
+}
+/* Trial 1 */
+
+#paraone {
+    color: green;
+}
+/* Trial 2 */
+
+#clr-one {
+    color: #F711F7;
+}
+#clr-two {
+    color: #F711F7;
+}
+/* Trial 3 */
+
+#clr-three {
+    color: red;
+}
+#clr-four {
+    color: goldenrod;
+}
+#clr-five {
+    color: blue;
+}
+/* Trial 4 */
+
+#para-four {
+    background-color: skyblue;
+}
+/* Trial 5 */
+
+#clr-six {
+    background-color: yellow;
+}
+/* Trial 6 */
+
+#bold-1 {
+    font-weight: bolder;
+}
+#bold-2 {
+    font-weight: bolder;
+}
+/* Trial 7 */
+
+#bold-3 {
+    font-weight: bolder;
+}
+/* Trial 8 */
+
+#line-4 {
+    text-decoration: line-through;
+}
+#line-5 {
+    text-decoration: line-through;
+}
+/* Trial 9 */
+
+#faux {
+    font-size: 36px;
+    font-weight: bold;
+}
+#eyebrow {
+    text-align: center;
+    font-size: 12px;
+}
+#fake-2 {
+    text-align: center;
+    font-size: 48px;
+}
+#fake-3 {
+    text-align: center;
+    font-size: 24px;
+    font-style: oblique;
+}
