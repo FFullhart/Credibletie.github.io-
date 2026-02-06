@@ -7,15 +7,27 @@
     Good luck, and have fun!
 */
 #bulletin-board {
-    font-size: 0%;
     width: 700px;
     height: 300px;
 }
 .post {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: inline-block;
     margin: 10px;
+}
+.push {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 7px;
+
+}
+.text {
+    color: white;
 }
 .pink {
     background-color: pink;
@@ -27,5 +39,17 @@
 }
 .brown {
     background-color: brown;
+    padding: 10px;
+}
+.dark-brown {
+    background-color: rgb(92, 83, 46);
+    padding: 10px;
+}
+.green {
+    background-color: rgb(103, 168, 108);
+    padding: 10px;
+}
+.other-green {
+    background-color: rgb(80, 119, 88);
     padding: 10px;
 }
