@@ -6,3 +6,26 @@
 
     Good luck, and have fun!
 */
+#bulletin-board {
+    font-size: 0%;
+    width: 700px;
+    height: 300px;
+}
+.post {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+.pink {
+    background-color: pink;
+    margin: 5px;
+}
+.cream {
+    background-color: beige;
+    padding: 10px;
+}
+.brown {
+    background-color: brown;
+    padding: 10px;
+}
