@@ -7,12 +7,15 @@ body {
 }
 #frame-1 {
     width: 100x;
-    height: 400px;
+    height: 385px;
     border: solid rgb(128, 85, 57);
     border-width: 15px;
-    margin: 30px;
+    margin-left: 30px;
+    margin-right: 404px;
+    margin-bottom: 20px;
     border-style: inset groove;
+
 }
 #jelly {
-    width: 100px;
+    width: 200px;
 }
