@@ -6,36 +6,44 @@ body {
     font-family: san-serif;
 }
 #frame-1 {
-    width: 100x;
-    height: 385px;
     border: solid rgb(128, 85, 57);
     border-width: 15px;
     margin-left: 30px;
-    margin-right: 1000px;
-    margin-bottom: 20px;
+    margin-right: 240px;
     border-style: inset groove;
     background-color: antiquewhite;
-
-}
-#frame-2 {
-    width: 100x;
-    height: 150px;
-    border: solid rgb(128, 85, 57);
-    border-width: 15px;
-    margin-left: 30px;
-    margin-right: 600px;
-    margin-bottom: 20px;
-    border-style: inset groove;
-    background-color: antiquewhite;
-
+    display: inline-block;
 }
 #jelly {
     padding: 5px;
-    display: inline-block;
     width: 200px;
+}
+#frame-2 {
+    border: solid rgb(128, 85, 57);
+    border-width: 15px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-style: inset groove;
+    background-color: antiquewhite;
+    display: inline-block;
+    border-radius: 50%;
 }
 #plane {
     padding: 5px;
-    display: inline-block;
     width: 200px;
+    border-radius: 50%;
+}
+#frame-3 {
+    border: solid rgb(128, 85, 57);
+    border-width: 15px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    border-style: inset groove;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+#lav {
+    padding: 5px;
+    width: 200px;
+    border-radius: 80%;
 }
