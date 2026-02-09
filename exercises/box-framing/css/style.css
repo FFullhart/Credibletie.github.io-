@@ -11,11 +11,14 @@ body {
     border: solid rgb(128, 85, 57);
     border-width: 15px;
     margin-left: 30px;
-    margin-right: 404px;
+    margin-right: 400px;
     margin-bottom: 20px;
     border-style: inset groove;
+    background-color: antiquewhite;
 
 }
 #jelly {
+    padding: 5px;
+    display: inline-block;
     width: 200px;
 }
