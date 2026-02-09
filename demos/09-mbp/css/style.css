@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0px;
+    font-family: san-serif;
+}
+div {
+    border: 10px dashed hotpink;
+    margin: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 24px 36px;
+    background-color: yellow;
+}
+p {
+    border: 5px solid red;
+    margin: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 24px 36px;
+    background-color: blueviolet;
+}

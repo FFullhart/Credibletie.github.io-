@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0px;
+    font-family: san-serif;
+}
+#frame-1 {
+    width: 100x;
+    height: 400px;
+    border: solid rgb(128, 85, 57);
+    border-width: 15px;
+    margin: 30px;
+    border-style: inset groove;
+
+}
+#jelly {
+    width: 100px;
+
+
+}
