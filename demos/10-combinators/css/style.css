@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: san-serif;
+}
+#navbar {
+    padding: 24px;
+    text-align: center;
+    background-color: blue;
+}
+    #navbar a {
+        color: white;
+}
+p.warning {
+    color: teal;
+}
+p.warning a {
+    background-color: red;
+}
