@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: san-serif;
+    align-items: center;
+
+}
+#morning {
+    display: inline-block;
+    color: rgb(127, 65, 96);
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid;
+    background-color: lightpink;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    
+}
+ul {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 0px solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.button {
+    border: 5px;
+    margin: 5px;
+    color: black;
+    background-color: rgb(104, 255, 104);
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+.important {
+    color: red;
+    font-weight: bolder;
+}
+.completed {
+    text-decoration: line-through;
+}
+/* EVENING TO DO */
+#afternoon {
+    display: inline-block;
+    color: rgb(43, 53, 145);
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid;
+    background-color: rgb(137, 149, 242);
+    padding: 10px;
+    width: 400px;
+    height: 200;
+}
+#evening {
+    display: inline-block;
+    color: rgb(89, 68, 79);
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid;
+    background-color: rgb(188, 137, 201);
+    padding: 10px;
+    width: 400px;
+    height: 200;
+}
