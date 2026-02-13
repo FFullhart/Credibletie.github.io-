@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: san-serif;
+}
+#first {
+    width: 50%;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 0px;
+}
+#second {
+    background-color: pink;
+    padding-bottom: 5px;
+}
+#head1 {
+    margin-top: 0px;
+}
