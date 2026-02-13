@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: san-serif;
+    background-color: black;
+}
+a {
+    background-color: pink;
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+}
+div {
+    margin-top: 40px;
+}
