@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#single-column {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.card {
+    border: 5px solid rgb(243, 117, 165);
+    margin: 0px 36px;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(180deg,rgb(252, 186, 220), rgb(230, 123, 169));
+    width: 300px;
+}
+.card-container {
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    justify-content: center;
+}
+.card img {
+    width: 200px;
+}
+.card-container #card2 {
+    border: 5px solid rgb(255, 206, 100);
+    margin: 0px 36px;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(180deg,rgb(250, 233, 82), rgb(239, 139, 38));
+    width: 300px;
+    
+}
+.card-container #card3 {
+    border: 5px solid rgb(70, 132, 218);
+    margin: 0px 36px;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(180deg,rgb(93, 128, 203), rgb(35, 191, 230));
+    width: 300px;
+}
+.button {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
