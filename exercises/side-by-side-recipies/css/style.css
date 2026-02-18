@@ -5,19 +5,51 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-.recipe-container {
+.recipe-contain {
+    max-width: 1000px;
+    margin: 0px auto;
     display: flex;
-    margin: 48px 0px;
     align-items: center;
-    flex-direction: row;
+    margin: 40px 0px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
-.img-contain img {
-    flex: 1;
+.recipe-contain .img-contain img {
     width: 100%;
- 
+}
+.recipe-contain .img-contain {
+    flex: 1;
+    padding: 20px;
 }
 .text-contain {
     flex: 1;
     padding: 36px;
-    
+}.button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+
+}
+/* cards */
+.likes-contain {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+#head2 {
+    text-align: center;
+}
+.img-contain3 {
+    display: flex;
+    max-width: 1000px;
+}
+.likes-contain .img-contain3 {
+    flex: 1;
+}
+.likes-contain .img-contain3 img {
+    width: 100%;
+}
+.contain{
+    display: flex;
 }
