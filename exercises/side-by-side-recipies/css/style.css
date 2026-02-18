@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.recipe-container {
+    display: flex;
+    margin: 48px 0px;
+    align-items: center;
+    flex-direction: row;
+}
+.img-contain img {
+    flex: 1;
+    width: 100%;
+ 
+}
+.text-contain {
+    flex: 1;
+    padding: 36px;
+    
+}
