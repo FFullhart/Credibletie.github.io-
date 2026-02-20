@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#sidebar-content {
+    display: flex;
+}
+#two-columns {
+    background-color: pink;
+    width: 200px;
+    order: 2;
+}
+#two-columns ul {
+    list-style: none;
+    background-color: bisque;
+    padding: 20px;
+}
+#two-columns a {
+    text-decoration: none;
+    padding: 20px 36px;
+    color: black;
+    
+}
+#main-content {
+    background-color: palevioletred;
+    flex: 1;
+}
