@@ -7,7 +7,6 @@ body {
 }
 .recipe-contain {
     max-width: 1000px;
-    margin: 0px auto;
     display: flex;
     align-items: center;
     margin: 40px 0px;

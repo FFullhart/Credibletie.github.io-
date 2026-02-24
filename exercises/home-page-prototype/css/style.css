@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#parent {
+    background-color: #C9B194;
+
+}
+#navbar {
+    display: flex;
+    align-items: baseline;
+    gap: 600px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #706D54;
+}
+#parent #navbar h4 {
+    color: rgb(255, 249, 242);
+    font-size: 20px;
+}
+.anchor a {
+    text-decoration: none;
+    color: rgb(255, 249, 242);
+    margin-left: 20px; 
+}
+.anchor a:hover {
+    text-decoration: underline;
+}
+#hero-text {
+    background-image: url(../images/pexels-koolshooters-9736331.jpg);
+    height: 100vh;
+    background-position: center center;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+#hero-text h2 {
+    font-size: 72px;
+    color: rgb(255, 249, 242);
+    margin-bottom: 32px;
+}
+#hero-text h3 {
+    font-size: 30px;
+    color: rgb(255, 249, 242);
+    margin: 0px;
+}
+#hero-text a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #706D54;
+    color: rgb(255, 249, 242);
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#hero-text a:hover {
+    background-color: rgb(255, 249, 242);
+    color: #706D54;
+}

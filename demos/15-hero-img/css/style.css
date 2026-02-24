@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#center {
+    background-image: url(../images/download.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#center .text {
+    text-align: center;
+    margin: 0px;
+    color: antiquewhite;
+}
+.text h2 {
+    font-size: 72px;
+    color: black;
+}
+.text h4 {
+    font-size: 20px;
+}
