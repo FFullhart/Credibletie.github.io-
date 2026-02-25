@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, white, rgb(59, 59, 59));
+}
+.center-text {
+    text-align: center;
+}
+.larger {
+    font-size: 50px;
+    margin: 10px;
+}
+.smaller {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#middle {
+    display: flex;
+    flex: 1;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#middle #one {
+    width: 300px;
+}
+#middle #two {
+    width: 300px;
+}
+#middle h1 {
+    font-weight: 1000px;
+    font-size: 50px;
+}
+#bottom {
+    text-align: center;
+}
+#buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#names {
+    display: flex;
+    gap: 215px;
+    justify-content: center;
+}
+#buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: rgb(17, 91, 91);
+    border-radius: 50px;
+    border: white solid 2px;
+}
+#buttons a:hover {
+    background-color: rgb(39, 87, 64);
+    color: white;
+    border: white solid 2px;
+}
