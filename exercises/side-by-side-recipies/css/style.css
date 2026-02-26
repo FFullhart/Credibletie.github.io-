@@ -23,7 +23,8 @@ body {
 .text-contain {
     flex: 1;
     padding: 36px;
-}.button{
+}
+.button{
     background-color: black;
     color: white;
     text-decoration: none;
@@ -35,6 +36,8 @@ body {
 .likes-contain {
     max-width: 1000px;
     margin: 0px auto;
+    display: flex;
+    flex-direction: row;
 }
 #head2 {
     text-align: center;
@@ -48,7 +51,4 @@ body {
 }
 .likes-contain .img-contain3 img {
     width: 100%;
-}
-.contain{
-    display: flex;
 }
