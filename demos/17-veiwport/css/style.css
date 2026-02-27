@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: black;
+}
+#nav a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+@media screen and (max-width: 450px) {
+    body {
+        background-color: red;
+    }
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Notable&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(254, 246, 235);
+}
+#navbar {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid black;
+}
+#navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#navbar a:hover {
+    text-decoration: underline;
+}
+/* home page typeography */
+#designs {
+    display: flex;
+    gap: 30px;  
+    text-align: center;
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    justify-content: center;
+}
+#designs h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#designs #never {
+    color: rgb(175, 114, 7);
+}
+/* gallery page */
